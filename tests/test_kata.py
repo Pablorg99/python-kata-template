@@ -1,12 +1,12 @@
 import unittest
-from src.kata import Class
+from src.kata import Kata
 
 
 class TestClass(unittest.TestCase):
     def test_method(self):
-        return_value = Class().method()
+        return_value = Kata().rule()
 
-        self.assertEqual("green test", return_value)
+        self.assertEqual("green", return_value)
 
 
 if __name__ == '__main__':

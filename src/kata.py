@@ -1,4 +1,4 @@
-class Class:
+class Kata:
 
-    def method(self):
-        return "green test"
+    def rule(self):
+        return "green"
