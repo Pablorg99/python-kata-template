@@ -1,6 +1,6 @@
 # Code Kata Python Template
 
-This is the code kata template for python created by [Pablo Rodríguez Guillén](https://github.com/Pablorg99)
+This is the code kata template for python 3 created by [Pablo Rodríguez Guillén](https://github.com/Pablorg99)
 
 ### Step 1. Clone the repository
 
@@ -8,9 +8,7 @@ This is the code kata template for python created by [Pablo Rodríguez Guillén]
 
 ### Step 2. Create your virtual environment
 
-I use `virtualenv` for it. You can install it with `pip`:
-
-`pip install virtualenv`
+I use `virtualenv` for it. You can install it with `pip` (`pip install virtualenv`) or `apt` if you use a debian-based distribution (`sudo apt install virtualenv`).
 
 To create the virtual environment with `python3` and activate it:
 
@@ -19,10 +17,10 @@ virtualenv -p python3 venv
 source venv/bin/activate
 ```
 
-### Step 3. Install requirements
+### Step 3. Install the requirements
 
 `pip install -r requirements.txt`
 
-### Step 4. Execute test
+### Step 4. Execute tests
 
-`python -m unittest`
+`python -m unittest -v`
